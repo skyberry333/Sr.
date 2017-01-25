@@ -1,7 +1,7 @@
 import enchant,json,sys,random,MySQLdb
 from itertools import permutations
 
-db = MySQLdb.connect(host="localhost", user="root", passwd="XTC980326", db="sr")
+db = MySQLdb.connect(host="localhost", user="root", passwd="root", db="sr")
 cur = db.cursor()
 
 def solve(word):
