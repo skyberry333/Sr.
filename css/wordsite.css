@@ -1,0 +1,94 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+form{
+	animation-delay: 1s;
+
+}
+
+input{
+	font-size: 6vw;
+	color: #e5e5e5;
+	font-family: 'Open Sans', sans-serif;
+}
+textarea:focus, input:focus {
+    color: #000;
+}
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-size: 6vw;
+}
+
+
+input {
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-bottom: 0;
+
+   
+    width: 50vw;
+}
+h1 {
+  font-size: 10vw;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  padding-left: 10vw;
+  padding-right: 6vw;
+  margin-top: 8vw;
+  margin-bottom: 4vw;
+
+
+}
+h2{
+
+	padding-left: 10vw;
+	font-size: 10vw;
+}
+h3{
+	padding-left: 10vw;
+	padding-right: 10vw;
+	margin-top: 25vw;
+	font-size: 10vw;
+
+}
+div{
+
+    padding-left: 9vw;
+    margin-bottom: 10vw;
+
+}
+footer {
+   position:absolute;
+   top: 170vw;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   font-size: 3vw;
+}
+@media screen and (min-width: 960px) {
+  h2{
+    margin: 30px;
+    padding-bottom: 40px;
+    font-size: 4vw;
+  }
+  h1{
+    margin: 30px;
+    font-size: 6vw;
+  }
+  input{
+    padding-top: 40px;
+    font-size: 3vw;
+    padding-left: 45px;
+  }
+  h3{
+    font-size: 6vw;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 12vw;
+  }
+}
